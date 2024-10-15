@@ -94,3 +94,30 @@ footer {
         margin-top: 20px;
     }
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        width: 100%;
+    }
+
+    .article-content, .article-content2, .article-content3{
+        margin-top: 10px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .footer-content, .footer-content2, .footer-content3, .footer-content4 {
+        width: 100%;
+        height: 150px;
+        background-color: rgb(165, 165, 165);
+        margin-top: 20px;
+    }
+}
